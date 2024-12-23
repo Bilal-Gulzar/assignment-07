@@ -75,7 +75,7 @@ function NavigationForMobile({ showMenu, setShowMenu}:props ) {
       </div>
       <button
         onClick={() => setShowMenu(false)}
-        className="w-full py-2 mt-8 bg-[#1879B9] hover:bg-[#115f93] text-white rounded-md"
+        className="w-full py-2.5 mt-8 bg-[#1879B9] hover:bg-[#115f93] text-white rounded-md"
       >
         Close
       </button>

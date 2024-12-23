@@ -17,7 +17,7 @@ export default function Home() {
         </Link>
 
         <Link href="/client-side-code">
-          <div className="  bg-[#1879B9] hover:bg-[#115f93]  w-[92vw] sm:w-[380px] text-white rounded-lg py-3 tracking-wider flex justify-center items-center">
+          <div className="  bg-[#1879B9] hover:bg-[#115f93]  w-[92vw] sm:w-[380px] text-white rounded-lg py-3 tracking-wider text-lg flex justify-center items-center">
             Client Side
           </div>
         </Link>
