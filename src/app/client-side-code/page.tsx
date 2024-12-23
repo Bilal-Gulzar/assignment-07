@@ -99,10 +99,6 @@ const array = Array.from({length:6},(_,index)=>index)
             key={index}
             className="gap-5 rounded-lg p-3 bg-white flex flex-col"
           >
-            <div className="text-xs w-full  py-4 rounded-md px-5 bg-[#f5f5f5]">
-              <Skeleton className=" sm:w-48 h-5" />
-              <Skeleton className="w-24 h-5 mt-2" />
-            </div>
             <Skeleton className="w-full h-[300px] sm:h-80" />
             <div className="flex flex-col gap-2">
               <Skeleton className="w-14 h-5" />

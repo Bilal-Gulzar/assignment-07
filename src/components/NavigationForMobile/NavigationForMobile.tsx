@@ -34,10 +34,10 @@ function NavigationForMobile({ showMenu, setShowMenu}:props ) {
       }  `}
       ref={scrollableContentRef}
     >
-        <div className='flex justify-end mt-4 me-2'>
+        <div className='flex  mt-4 me-2'>
           <IoClose onClick={()=>setShowMenu(false)} className='size-6' />
         </div>
-      <div className="flex gap-3 items-center text-sm text-gray-500 border-b py-6 border-gray-300  ">
+      <div className="flex gap-3 items-center text-sm text-gray-500 border-b py-5 border-gray-300  ">
         <div className="flex  flex-col text-sm text gap-3 py-5  ">
           <Link href="/">
             <p
