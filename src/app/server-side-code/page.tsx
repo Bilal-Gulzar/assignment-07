@@ -15,7 +15,7 @@ export default async function ServerSide() {
     console.log("Error occured!")
     return
    }
-  let  result:product[] =  await res.json()
+  const  result:product[] =  await res.json()
     
 
 

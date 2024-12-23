@@ -10,13 +10,13 @@ export default function Footer() {
 
     <footer className={`max-w-[1200px] mx-auto ${path == '/' ? "hidden" : ""}`}>
       <div className=" border-t lg:container lg:mx-auto px-5  text-xs flex lg:flex-row flex-col items-center  underline gap-7 py-8 w-full  border-gray-300 mt-14">
-        <Link href="/exchange&return">
+        <Link href="#">
           <div className='text-center'>Assigment-07</div>
         </Link>
-        <Link href="/privacy-policy">
+        <Link href="/">
           <div className='text-center'>Server-Side and Client-Side Data Fatching</div>
         </Link>
-        <Link href="/terms&conditions">
+        <Link href="#">
           <div className='text-center'>ALL Right reserved ©{currentYear}</div>
         </Link>
       </div>
