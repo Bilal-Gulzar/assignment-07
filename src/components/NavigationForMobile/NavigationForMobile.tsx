@@ -3,7 +3,6 @@ import React, { useEffect,useRef } from 'react'
 import { enableBodyScroll, disableBodyScroll } from "body-scroll-lock";
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
-import { AiOutlineClose } from "react-icons/ai";
 
 type props = {
   showMenu:boolean
@@ -34,9 +33,6 @@ function NavigationForMobile({ showMenu, setShowMenu}:props ) {
       }  `}
       ref={scrollableContentRef}
     >
-        <div className='flex justify-end mt-4 me-2'>
-          <AiOutlineClose onClick={()=>setShowMenu(false)} className='size-5' />
-        </div>
       <div className="flex gap-3 items-center text-sm text-gray-500 border-b py-5 border-gray-300  ">
         <div className="flex  flex-col text-sm text gap-3 py-5  ">
           <Link href="/">
