@@ -29,7 +29,7 @@ function NavigationForMobile({ showMenu, setShowMenu}:props ) {
   }, [showMenu]);
   return (
     <section
-      className={`min-h-screen transition-all duration-500 overflow-x-hidden border-t border-gray-500 bg-white fixed px-3 right-0  bottom-0 z-30  w-[80vw] md:hidden ${
+      className={`height transition-all duration-500 overflow-x-hidden border-t border-gray-500 bg-white fixed px-3 right-0  bottom-0 z-30  w-[80vw] md:hidden ${
         showMenu ? "" : "translate-x-full"
       }  `}
       ref={scrollableContentRef}

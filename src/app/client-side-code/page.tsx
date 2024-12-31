@@ -61,7 +61,7 @@ const array = Array.from({length:6},(_,index)=>index)
                     src={v.image || ""}
                     fill
                     sizes="(min-width: 808px) 50vw, 100vw"
-                    alt={v.image || "image"}
+                    alt={v.title || "image"}
                     priority
                   />
                 </div>
